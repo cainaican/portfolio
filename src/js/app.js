@@ -1,4 +1,6 @@
-var Typed = require('typed.js');
+import '../css/main.css'
+import Typed from 'typed.js';
+
 
 var messages = [
   'Здраствуйте! Меня зовут Динислам! Я изучаю язык JavaScript и учусь кодить на React! 💖',
