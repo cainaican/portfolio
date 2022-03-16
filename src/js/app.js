@@ -1,45 +1,102 @@
 import '../css/main.css'
+import '../css/about.css'
 import Typed from 'typed.js';
 
 
-var messages = [
+let messages = [
   'Здраствуйте! Меня зовут Динислам! Я изучаю язык JavaScript и учусь кодить на React! 💖',
   'Здесь вы можете посмотреть мои проекты! 🚀',
   'Мои увлечения и достижения! 😍',
   'А так же со мной легко связаться! 😉',
 ]
 
-var typed = 999
 
-let catalogLi = document.querySelectorAll('.nav__inner-back')
-let catalogA = document.querySelectorAll('.nav__inner-reference')
-let catalogRef = document.querySelectorAll('.nav__inner-ref')
+let typed = 999
+
+console.dir(document.body)
+
+const catalogLi = document.querySelectorAll('.nav__inner-back')
+const catalogA = document.querySelectorAll('.nav__inner-reference')
+const catalogRef = document.querySelectorAll('.nav__inner-ref')
+const buttonBack = document.querySelector('.about__inner-button-forv')
+const buttonForv = document.querySelector('.about__inner-button-back')
+const offsetWidth = document.body.offsetWidth
 
 for(let i = 0; i < catalogLi.length; i++){
   catalogLi[i].style.backgroundImage =  `url(./img/${i}.jpg)`
   catalogA[i].style.backgroundImage =   `linear-gradient(160deg, transparent, rgb(0, 0, 0)), url(./img/${i}.jpg)`
-  catalogRef[i].onmouseenter = () => changeWidth(i)
-  catalogRef[i].onmouseleave = () => onCommonWidth(i)
+  catalogRef[i].onmouseenter = () => (offsetWidth > 800) ? changeWidth(i) : changeHeight(i)
+  catalogRef[i].onmouseleave = () => (offsetWidth > 800) ? onCommonWidth(i) : onCommonHeight(i)
+  buttonForv.addEventListener('click', photoAdd)
+  buttonBack.addEventListener('click', photoSub)
 }
-
+/**
+ * Для экранов больше 800px
+ */
 function changeWidth(i) {
-  if (i == 0) {
+  if (i === 0) {
     showHideText(1)
   }
   for(let x = 0; x < 4; x++){
     document.querySelectorAll('.nav__inner-back')[x].style.width = '100%'
   }
-  document.querySelectorAll('.nav__inner-back')[i].style.width = '250%'
+  document.querySelectorAll('.nav__inner-back')[i].style.width = '275%'
+  if (i === 2){
+    aboutFrame.style.height = `80%`
+    aboutFrame.style.top = `18%`
+    onGallery()
+  }
 }
 
 function onCommonWidth(i) {
   for(let x = 0; x < 4; x++){
     document.querySelectorAll('.nav__inner-back')[x].style.width = '100%'
   }
-  if (i == 0) {
+  if (i === 0) {
     showHideText(0)
   }
+  if (i === 2){
+    onGalleryLaunch = false
+    buttonForv.style.display = 'none';
+    buttonBack.style.display = 'none';
+  }
 }
+/**
+ * Для экранов меньше 800px
+ */
+function changeHeight(i) {
+  if (i === 0) {
+    showHideText(1)
+  }
+  for(let x = 0; x < 4; x++){
+    document.querySelectorAll('.nav__inner-back')[x].style.height = '9%'
+  }
+  document.querySelectorAll('.nav__inner-back')[i].style.height = '73%'
+  if (i === 2){
+    aboutFrame.style.height = `80%`
+    aboutFrame.style.top = `18%`
+    onGallery()
+  }
+}
+
+function onCommonHeight(i) {
+  for(let x = 0; x < 4; x++){
+    document.querySelectorAll('.nav__inner-back')[x].style.height = '25%'
+  }
+  if (i === 0) {
+    showHideText(0)
+  }
+  if (i === 2){
+    onGalleryLaunch = false
+    buttonForv.style.display = 'none';
+    buttonBack.style.display = 'none';
+  }
+}
+
+
+/**
+ * Автопечать текста
+ */
 
 function showHideText (n) {
  if (n == 1)  {
@@ -67,6 +124,11 @@ function showHideText (n) {
   } 
 }
 
+
+/**
+ * Подсвечивание
+ */
+
 function onlightShadow(arrayPos){
   offlightShadow()
   if (arrayPos != 0){
@@ -77,7 +139,77 @@ function onlightShadow(arrayPos){
 function offlightShadow(){
   for (let i = 0; i < 4; i++){
     document.querySelectorAll('.nav__inner-reference')[i].style.boxShadow = 'none'
-
   }
 }
 
+
+/**
+ * Анимация сектора About
+ */
+const photoArray = ['football.JPG', 'job.JPG', 'master2.jpg', 'student.jpg']
+const textArray = [`Я люблю активные виды спорта! Футбол⚽, Баскетбол⛹️, Хоккей🏒`, 
+                    'Работал инженером-программистом контроллеров!👷 И приходлось кодить в самых суровых условиях! 🥶', 
+                    'В 2021 году закончил нефтяной университет и имею степень магистра по автоматизации 💪',
+                    'В университете активно участвовал в культурно-массовой деятельности факультета 🎤']
+const aboutFrame = document.querySelectorAll('.nav__inner-descr')[2]
+const photo = document.querySelector('.about__inner-photo')
+const text = document.querySelector('.about__inner-desc')
+let onGalleryLaunch = false;
+let photoNum = 0
+
+function onGallery(){
+
+  onGalleryLaunch = true
+  buttonForv.style.backgroundImage = `url(./img/right.png)`;
+  buttonBack.style.backgroundImage = `url(./img/left.png)`;
+  buttonForv.style.display = 'block';
+  buttonBack.style.display = 'block';
+  if (photoNum === 4){
+    photoNum = 0
+  }
+  if (photoNum === -1){
+    photoNum = 3
+  }
+
+  photo.src = `/img/${photoArray[photoNum]}`
+  text.innerHTML = `${textArray[photoNum]}`
+  if (offsetWidth > 800) {
+    if (photoNum === 3) {
+      photo.style.width = '80%'
+      text.style.width = '90%'
+    } else if(photoNum === 2) {
+      text.style.width = '85%'
+      photo.style.width = '65%'
+    } else if(photoNum === 1) {
+      text.style.width = '90%'
+      photo.style.width = '62%'
+    } else if(photoNum === 0) {
+      text.style.width = '86%'
+      photo.style.width = '65%'
+    }
+  } else if (offsetWidth > 450 && offsetWidth < 800)  {
+    if (photoNum === 3) {
+      photo.style.width = '72%'
+      text.style.width = '95%'
+    } else if(photoNum === 2) {
+      text.style.width = '95%'
+      photo.style.width = '60%'
+    } else if(photoNum === 1) {
+      text.style.width = '75%'
+      photo.style.width = '60%'
+    } else if(photoNum === 0) {
+      text.style.width = '60%'
+      photo.style.width = '56%'
+    }
+  }
+}
+
+function photoAdd(){
+  photoNum += 1
+  onGallery()
+}
+
+function photoSub(){
+  photoNum -= 1
+  onGallery()
+}

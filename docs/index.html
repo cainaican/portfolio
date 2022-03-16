@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="./css/main.css"> -->
+  <link rel="stylesheet" href="./css/main.css">
   <title>Document</title>
-</head>
+<script defer src="bundle.js"></script></head>
 <body>
   <nav class="nav">
     <div class="nav__inner">
@@ -23,14 +23,17 @@
       <div class="nav__inner-back">
         <div class="nav__inner-item">
           <div class="nav__inner-ref">
-            <a href="#" class="nav__inner-reference"><span class="nav__inner-span">PROGECTS</span></a>
+            <a href="#" class="nav__inner-reference"><span class="nav__inner-span">PROG</span></a>
             <div class="nav__inner-descr">
               <table>
                 <tbody>
                   <tr>
                     <td>Tic-Toe</td>
-                    <td><a href="https://cainaican.github.io/TIC-TOE/" class="nav__inner-descr-ref"><img src="./img/smallJs.png" alt="Tic-Toe" class="nav__inner-descr-img"></a></td>
-                    <td></td>
+                    <td>
+                      <a href="" class="nav__inner-descr-ref">
+                        <img src="./img/smallJs.png" alt="Tic-Toe" class="nav__inner-descr-img">
+                      </a>
+                    </td>
                     <td>
                       <a href="https://reacttictoebydini.herokuapp.com/" class="nav__inner-descr-ref">
                         <img src="./img/smallReact.png" alt="Tic-Toe" class="nav__inner-descr-img">
@@ -40,23 +43,11 @@
                   <tr>
                     <td>ToDO</td>
                     <td></td>
-                    <td>
-                      <a href="" class="nav__inner-descr-ref">
-                        <img src="./img/smallVue.png" alt="Tic-Toe" class="nav__inner-descr-img">
-                      </a>
-                    </td>
                     <td></td>
                   </tr>
                   <tr>
                     <td>Snake</td>
                     <td><a href="https://cainaican.github.io/snake/" class="nav__inner-descr-ref"><img src="./img/smallJs.png" alt="Snake" class="nav__inner-descr-img"></a></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>Online-store</td>
-                    <td><a href="" class="nav__inner-descr-ref"><img src="./img/smallJs.png" alt="OnlineStore" class="nav__inner-descr-img"></a></td>
-                    <td></td>
                     <td></td>
                   </tr>
                 </tbody>
@@ -69,8 +60,17 @@
         <div class="nav__inner-item">
           <div class="nav__inner-ref">
             <a href="#" class="nav__inner-reference"><span class="nav__inner-span">ABOUT</span></a>
-            <div class="nav__inner-descr">
-            </div>
+              <div class="nav__inner-descr">
+                <button class="about__inner-button-forv"></button>
+                  <div class="about__inner">
+                    <div class="about__inner-wrap">
+                      <img class="about__inner-photo"></img>
+                    </div>
+                    <div class="about__inner-desc">
+                    </div>
+                  </div>
+                <button class="about__inner-button-back"></button>
+              </div>
           </div>
         </div>
       </div>
@@ -79,12 +79,12 @@
           <div class="nav__inner-ref">
             <a href="#" class="nav__inner-reference"><span class="nav__inner-span">CONTACTS</span></a>
             <div class="nav__inner-descr">
-              <div class="about__inner">
-                <a href="https://t.me/cainaican" class="about__inner-ref"><img src="./img/tg.png" alt="tg" class="about__inner-img"></a>
-                <a href="https://vk.com/musin_dinislam" class="about__inner-ref"><img src="./img/vk.png" alt="vk" class="about__inner-img"></a>
-                <a href="https://github.com/cainaican" class="about__inner-ref"><img src="./img/gh.png" alt="gh" class="about__inner-img""></a>
-                <a href="https://www.instagram.com/musin_dinislam/" class="about__inner-ref"><img src="./img/inst.png" alt="inst" class="about__inner-img"></a>
-                <a href="https://ufa.hh.ru/resume/e19511e9ff0735ab2c0039ed1f7a6d35544975" class="about__inner-ref"><img src="./img/hh.png" alt="hh" class="about__inner-img"></a>
+              <div class="contact__inner">
+                <a href="https://t.me/cainaican" class="contact__inner-ref"><img src="/img/tg.png" alt="tg" class="contact__inner-img"></a>
+                <a href="https://vk.com/musin_dinislam" class="contact__inner-ref"><img src="/img/vk.png" alt="vk" class="contact__inner-img"></a>
+                <a href="https://github.com/cainaican" class="contact__inner-ref"><img src="/img/gh.png" alt="gh" class="contact__inner-img""></a>
+                <a href="https://www.instagram.com/musin_dinislam/" class="contact__inner-ref"><img src="/img/inst.png" alt="inst" class="contact__inner-img"></a>
+                <a href="https://ufa.hh.ru/resume/e19511e9ff0735ab2c0039ed1f7a6d35544975" class="contact__inner-ref"><img src="/img/hh.png" alt="hh" class="contact__inner-img"></a>
               </div>
             </div>
           </div>
@@ -92,6 +92,6 @@
       </div>
     </div>
   </div>
-  <script src="./bundle.js"></script>
+  <script src="./js/bundle.js"></script>
 </body>
 </html>

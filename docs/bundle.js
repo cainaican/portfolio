@@ -357,7 +357,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: sans-serif;\r\n  font-size: 95%;\r\n}\r\n.nav{\r\n  display: flex;\r\n  width: 100%;\r\n  height: 100vh;\r\n  margin: auto;\r\n  align-items: center;\r\n  justify-content: center;\r\n  background: rgb(0, 0, 0);\r\n}\r\n.nav__inner{\r\n  display: flex;\r\n  justify-content: space-between;\r\n  width: 80%;\r\n  height: 100vh;\r\n}\r\n.nav__inner-back{\r\n  display: flex;\r\n  width: 100%;\r\n  transition: all 250ms ease-in-out;\r\n  background-position: center;\r\n  background-attachment: fixed;\r\n}\r\n.nav__inner-item{\r\n  display: flex;\r\n  align-items: center;\r\n  height: 100%;\r\n  width: 100%;\r\n  backdrop-filter: blur(500px);\r\n  background-attachment: fixed;\r\n  background-size: cover;\r\n  box-shadow: 0 0 200px 130px rgb(0 0 0) inset;\r\n}\r\n.nav__inner-ref{\r\n  display: flex;\r\n  width: 100%;\r\n  height: 75%;\r\n  justify-content: center;  \r\n}\r\n.nav__inner-reference{\r\n  display: flex;\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100%;\r\n  background-size: cover;\r\n  background-attachment: fixed;\r\n  background-position: center;\r\n  font-size: 300%;\r\n  font-weight: normal;\r\n  text-decoration: none;\r\n  color: aliceblue;\r\n  border-left: 2px solid black;\r\n  border-right: 2px solid black;\r\n  border-radius: 10px;\r\n  transition: all 250ms ease-in-out;\r\n  justify-content: center;\r\n}\r\n.nav__inner-span{\r\n  position: absolute;\r\n  display: block;\r\n  width: 100%;\r\n  font-size: 200%;\r\n  top: 35%;\r\n  height: min-content;\r\n  transform: rotate(90deg);\r\n  transition: all 350ms ease-in-out;\r\n  opacity: 0.7;\r\n}\r\n.nav__inner-descr{\r\n  position: absolute;\r\n  display: hidden;\r\n  color: transparent;\r\n  top: 10%;\r\n  left: 50%;\r\n  width: 0;\r\n  height: 0;\r\n  border-radius: 10px;\r\n  background: rgb(255 255 255 / 8%);\r\n  backdrop-filter: blur(5px);\r\n}\r\n.nav__inner-descr p{\r\n  display: block;\r\n  margin: auto;\r\n  padding: 10px;\r\n  border-radius: 10px;\r\n  width: 90%;\r\n  height: 90%;\r\n  opacity: 0;\r\n  font-size: 22px;\r\n  line-height: 34px;\r\n  letter-spacing: 1px;\r\n}\r\ntable{\r\n  display: none;\r\n  margin: auto 1%;\r\n  width: 100%;\r\n  color: rgb(0, 0, 0);\r\n}\r\n.nav__inner-descr-ref{\r\n  display: block;\r\n  width: 100px;\r\n}\r\n.nav__inner-descr-img{\r\n  opacity: 0.8;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\ntd{\r\n  margin: auto;\r\n  width: 100px;\r\n  height: 65px;\r\n  font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\r\n  font-size: 24px;\r\n  text-align: center;\r\n  vertical-align: middle;\r\n}\r\nthead, tbody { \r\n  margin:0 auto;\r\n  width: 400px;\r\n}\r\ntbody .nav__inner-descr-img {\r\n  width: 45%;\r\n  height: 45%;\r\n  opacity: 0.8;\r\n}\r\n.about__inner{\r\n  display: none;\r\n  width: 100%;\r\n  height: 100%;\r\n  margin: auto;\r\n  opacity: 0.6;\r\n  align-items: center;\r\n}\r\n.about__inner-ref{\r\n  position: relative;\r\n  display: block;\r\n  width: 75px;\r\n  height: 45px;\r\n}\r\n.about__inner-img{\r\n  width: 45px;\r\n  height: 45px;\r\n  margin: auto 0;\r\n}\r\n.nav__inner-ref:hover span {\r\n  opacity: 1;\r\n  top: 5%;\r\n  left: 5%;\r\n  margin-bottom: 100%;\r\n  font-size: 150%;\r\n  transform: rotate(0deg);\r\n}\r\n .nav__inner-ref:hover{\r\n  background: none;\r\n  filter: brightness(145%);\r\n  background-size: cover;\r\n  background-attachment: fixed;\r\n  background-position: center;\r\n}\r\n.nav__inner-ref:hover .nav__inner-descr {\r\n  display: flex;\r\n  width: 96%;\r\n  height: 48%;\r\n  left: 2%;\r\n  top: 50%;\r\n  color: white;\r\n  justify-content: space-around;\r\n}\r\n.nav__inner-ref:hover .nav__inner-descr p {\r\n  opacity: 1;\r\n}\r\n.nav__inner-ref:hover table { \r\n  display: flex; \r\n  flex-direction: column; \r\n}\r\n.nav__inner-ref:hover .about__inner { \r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n.nav__inner-descr-img:hover{\r\n  opacity: 1;\r\n}\r\n.about__inner-img:hover{\r\n  box-shadow: 0px 0px 10px 15px rgba(255, 255, 255, 0.101), 0px 0px 2px 5px rgba(255, 255, 255, 0.121) inset;\r\n  border-radius: 50%;\r\n  transition: all 300ms ;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: sans-serif;\r\n  font-size: 95%;\r\n}\r\n.nav {\r\n  display: flex;\r\n  width: 100%;\r\n  height: 100vh;\r\n  margin: auto;\r\n  align-items: center;\r\n  justify-content: center;\r\n  background: rgb(0, 0, 0);\r\n}\r\n.nav__inner {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  width: 80%;\r\n  height: 100vh;\r\n}\r\n.nav__inner-back {\r\n  display: flex;\r\n  width: 100%;\r\n  transition: all 250ms ease-in-out;\r\n  background-position: center;\r\n  background-attachment: fixed;\r\n}\r\n.nav__inner-item {\r\n  display: flex;\r\n  align-items: center;\r\n  height: 100%;\r\n  width: 100%;\r\n  backdrop-filter: blur(500px);\r\n  background-attachment: fixed;\r\n  background-size: cover;\r\n  box-shadow: 0 0 200px 130px rgb(0 0 0) inset;\r\n}\r\n.nav__inner-ref {\r\n  display: flex;\r\n  width: 100%;\r\n  height: 75%;\r\n  justify-content: center;\r\n}\r\n.nav__inner-reference {\r\n  display: flex;\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100%;\r\n  background-size: cover;\r\n  background-attachment: fixed;\r\n  background-position: center;\r\n  font-size: 300%;\r\n  font-weight: normal;\r\n  text-decoration: none;\r\n  color: aliceblue;\r\n  border-left: 2px solid black;\r\n  border-right: 2px solid black;\r\n  border-radius: 10px;\r\n  transition: all 250ms ease-in-out;\r\n  justify-content: center;\r\n}\r\n.nav__inner-span {\r\n  position: absolute;\r\n  display: block;\r\n  width: 100%;\r\n  font-size: 200%;\r\n  top: 35%;\r\n  height: min-content;\r\n  transform: rotate(90deg);\r\n  transition: all 350ms ease-in-out;\r\n  opacity: 0.7;\r\n}\r\n.nav__inner-descr {\r\n  position: absolute;\r\n  display: hidden;\r\n  color: transparent;\r\n  top: 10%;\r\n  left: 50%;\r\n  width: 0;\r\n  height: 0;\r\n  border-radius: 10px;\r\n  background: rgb(255 255 255 / 8%);\r\n  backdrop-filter: blur(5px);\r\n}\r\n.nav__inner-descr p {\r\n  display: block;\r\n  margin: auto;\r\n  padding: 10px;\r\n  border-radius: 10px;\r\n  width: 90%;\r\n  height: 90%;\r\n  opacity: 0;\r\n  font-size: 22px;\r\n  line-height: 34px;\r\n  letter-spacing: 1px;\r\n}\r\n.nav__inner-descr:nth-child(2) {\r\n  top: 0%;\r\n  left: 40%;\r\n}\r\ntable {\r\n  display: none;\r\n  margin: auto 1%;\r\n  width: 100%;\r\n  color: rgb(0, 0, 0);\r\n}\r\n.nav__inner-descr-ref {\r\n  display: block;\r\n  width: 100px;\r\n}\r\n.nav__inner-descr-img {\r\n  opacity: 0.8;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\ntd {\r\n  margin: auto;\r\n  width: 100px;\r\n  height: 65px;\r\n  font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\r\n  font-size: 24px;\r\n  text-align: center;\r\n  vertical-align: middle;\r\n}\r\nthead,\r\ntbody {\r\n  margin: 0 auto;\r\n  width: 400px;\r\n}\r\ntbody .nav__inner-descr-img {\r\n  width: 45%;\r\n  height: 45%;\r\n  opacity: 0.8;\r\n}\r\n.contact__inner {\r\n  display: none;\r\n  width: 100%;\r\n  height: 100%;\r\n  margin: auto;\r\n  opacity: 0.6;\r\n  align-items: center;\r\n}\r\n.contact__inner-ref {\r\n  position: relative;\r\n  display: block;\r\n  width: 75px;\r\n  height: 45px;\r\n}\r\n.contact__inner-img {\r\n  width: 45px;\r\n  height: 45px;\r\n  margin: auto 0;\r\n}\r\n.nav__inner-ref:hover span {\r\n  opacity: 1;\r\n  top: 5%;\r\n  left: 5%;\r\n  margin-bottom: 100%;\r\n  font-size: 150%;\r\n  transform: rotate(0deg);\r\n}\r\n.nav__inner-ref:hover {\r\n  background: none;\r\n  filter: brightness(145%);\r\n  background-size: cover;\r\n  background-attachment: fixed;\r\n  background-position: center;\r\n}\r\n.nav__inner-ref:hover .nav__inner-descr {\r\n  display: flex;\r\n  width: 96%;\r\n  height: 48%;\r\n  left: 2%;\r\n  top: 50%;\r\n  color: white;\r\n  justify-content: space-around;\r\n}\r\n.nav__inner-ref:hover .nav__inner-descr p {\r\n  opacity: 1;\r\n}\r\n.nav__inner-ref:hover table {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n.nav__inner-ref:hover .contact__inner {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n.nav__inner-descr-img:hover {\r\n  opacity: 1;\r\n}\r\n.contact__inner-img:hover {\r\n  box-shadow: 0px 0px 10px 15px rgba(255, 255, 255, 0.101),\r\n    0px 0px 2px 5px rgba(255, 255, 255, 0.121) inset;\r\n  border-radius: 50%;\r\n  transition: all 300ms;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -483,6 +483,80 @@ module.exports = function (cssWithMappingToString) {
 
 /***/ }),
 /* 11 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(7);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_about_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(12);
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_about_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_about_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_about_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_about_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+/* 12 */
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".about__inner {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  width: 100%;\r\n  height: 100%;\r\n  transition: all 250ms ease-in-out;\r\n}\r\n\r\n.about__inner-wrap {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 75%;\r\n  height: 80%;\r\n  border-radius: 20px;\r\n  margin-top: 20px;\r\n}\r\n\r\n.about__inner-photo {\r\n  display: block;\r\n  position: relative;\r\n  border-radius: 20px;\r\n  transition: all 250ms ease-out;\r\n  filter: brightness(0.6) contrast(1);\r\n  margin: 20px;\r\n  padding: 5px;\r\n}\r\n\r\n.about__inner-desc {\r\n  display: block;\r\n  margin: 10px;\r\n  width: 0%;\r\n  text-align: center;\r\n  transition: all 250ms ease-out;\r\n  font-size: 18px;\r\n}\r\n\r\n.about__inner-button-forv {\r\n  opacity: 0.7;\r\n  display: block;\r\n  position: absolute;\r\n  left: 0;\r\n  top: 50%;\r\n  width: 64px;\r\n  height: 64px;\r\n  cursor: pointer;\r\n  border: none;\r\n  background-color: transparent;\r\n}\r\n\r\n.about__inner-button-back {\r\n  opacity: 0.7;\r\n  background-color: transparent;\r\n  position: absolute;\r\n  cursor: pointer;\r\n  right: 0;\r\n  top: 50%;\r\n  border: none;\r\n  display: block;\r\n  width: 64px;\r\n  height: 64px;\r\n}\r\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+/* 13 */
 /***/ (function(module) {
 
 /*!
@@ -1770,15 +1844,19 @@ var __webpack_exports__ = {};
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
-/* harmony import */ var typed_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(11);
-/* harmony import */ var typed_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(typed_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_about_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(11);
+/* harmony import */ var typed_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(13);
+/* harmony import */ var typed_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(typed_js__WEBPACK_IMPORTED_MODULE_2__);
 
 
-var messages = ['Здраствуйте! Меня зовут Динислам! Я изучаю язык JavaScript и учусь кодить на React! 💖', 'Здесь вы можете посмотреть мои проекты! 🚀', 'Мои увлечения и достижения! 😍', 'А так же со мной легко связаться! 😉'];
-var typed = 999;
-let catalogLi = document.querySelectorAll('.nav__inner-back');
-let catalogA = document.querySelectorAll('.nav__inner-reference');
-let catalogRef = document.querySelectorAll('.nav__inner-ref');
+
+let messages = ['Здраствуйте! Меня зовут Динислам! Я изучаю язык JavaScript и учусь кодить на React! 💖', 'Здесь вы можете посмотреть мои проекты! 🚀', 'Мои увлечения и достижения! 😍', 'А так же со мной легко связаться! 😉'];
+let typed = 999;
+const catalogLi = document.querySelectorAll('.nav__inner-back');
+const catalogA = document.querySelectorAll('.nav__inner-reference');
+const catalogRef = document.querySelectorAll('.nav__inner-ref');
+const buttonBack = document.querySelector('.about__inner-button-forv');
+const buttonForv = document.querySelector('.about__inner-button-back');
 
 for (let i = 0; i < catalogLi.length; i++) {
   catalogLi[i].style.backgroundImage = `url(./img/${i}.jpg)`;
@@ -1787,10 +1865,13 @@ for (let i = 0; i < catalogLi.length; i++) {
   catalogRef[i].onmouseenter = () => changeWidth(i);
 
   catalogRef[i].onmouseleave = () => onCommonWidth(i);
+
+  buttonForv.addEventListener('click', photoAdd);
+  buttonBack.addEventListener('click', photoSub);
 }
 
 function changeWidth(i) {
-  if (i == 0) {
+  if (i === 0) {
     showHideText(1);
   }
 
@@ -1798,7 +1879,13 @@ function changeWidth(i) {
     document.querySelectorAll('.nav__inner-back')[x].style.width = '100%';
   }
 
-  document.querySelectorAll('.nav__inner-back')[i].style.width = '250%';
+  document.querySelectorAll('.nav__inner-back')[i].style.width = '275%';
+
+  if (i === 2) {
+    aboutFrame.style.height = `80%`;
+    aboutFrame.style.top = `18%`;
+    onGallery();
+  }
 }
 
 function onCommonWidth(i) {
@@ -1806,15 +1893,21 @@ function onCommonWidth(i) {
     document.querySelectorAll('.nav__inner-back')[x].style.width = '100%';
   }
 
-  if (i == 0) {
+  if (i === 0) {
     showHideText(0);
+  }
+
+  if (i === 2) {
+    onGalleryLaunch = false;
+    buttonForv.style.display = 'none';
+    buttonBack.style.display = 'none';
   }
 }
 
 function showHideText(n) {
   if (n == 1) {
     if (typed == 999) {
-      typed = new (typed_js__WEBPACK_IMPORTED_MODULE_1___default())('#info', {
+      typed = new (typed_js__WEBPACK_IMPORTED_MODULE_2___default())('#info', {
         strings: messages,
         typeSpeed: 35,
         // Скорость печати
@@ -1856,6 +1949,57 @@ function offlightShadow() {
   for (let i = 0; i < 4; i++) {
     document.querySelectorAll('.nav__inner-reference')[i].style.boxShadow = 'none';
   }
+}
+
+const photoArray = ['football.JPG', 'job.JPG', 'master2.jpg', 'student.jpg'];
+const textArray = [`Я люблю активные виды спорта! Футбол⚽, Баскетбол⛹️, Хоккей🏒`, 'Работал инженером-программистом контроллеров!👷 И приходлось кодить в самых суровых условиях! 🥶', 'В 2021 году закончил нефтяной университет и имею степень магистра по автоматизации 💪', 'В университете активно участвовал культурно-массовой деятельности факультета 🎤'];
+const aboutFrame = document.querySelectorAll('.nav__inner-descr')[2];
+const photo = document.querySelector('.about__inner-photo');
+const text = document.querySelector('.about__inner-desc');
+let onGalleryLaunch = false;
+let photoNum = 0;
+
+function onGallery() {
+  onGalleryLaunch = true;
+  buttonForv.style.backgroundImage = `url(./img/right.png)`;
+  buttonBack.style.backgroundImage = `url(./img/left.png)`;
+  buttonForv.style.display = 'block';
+  buttonBack.style.display = 'block';
+
+  if (photoNum === 4) {
+    photoNum = 0;
+  }
+
+  if (photoNum === -1) {
+    photoNum = 3;
+  }
+
+  photo.src = `/img/${photoArray[photoNum]}`;
+  text.innerHTML = `${textArray[photoNum]}`;
+
+  if (photoNum === 3) {
+    photo.style.width = '80%';
+    text.style.width = '90%';
+  } else if (photoNum === 2) {
+    text.style.width = '85%';
+    photo.style.width = '65%';
+  } else if (photoNum === 1) {
+    text.style.width = '90%';
+    photo.style.width = '62%';
+  } else if (photoNum === 0) {
+    text.style.width = '86%';
+    photo.style.width = '65%';
+  }
+}
+
+function photoAdd() {
+  photoNum += 1;
+  onGallery();
+}
+
+function photoSub() {
+  photoNum -= 1;
+  onGallery();
 }
 })();
 
