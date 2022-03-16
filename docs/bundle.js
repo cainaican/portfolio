@@ -2030,7 +2030,7 @@ function onGallery() {
     photoNum = 3;
   }
 
-  photo.src = `/img/${photoArray[photoNum]}`;
+  photo.src = `./img/${photoArray[photoNum]}`;
   text.innerHTML = `${textArray[photoNum]}`;
 
   if (offsetWidth > 800) {
