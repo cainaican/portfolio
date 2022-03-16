@@ -357,7 +357,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: sans-serif;\r\n  font-size: 95%;\r\n}\r\n.nav {\r\n  display: flex;\r\n  width: 100%;\r\n  height: 100vh;\r\n  margin: auto;\r\n  align-items: center;\r\n  justify-content: center;\r\n  background: rgb(0, 0, 0);\r\n}\r\n.nav__inner {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  width: 80%;\r\n  height: 100vh;\r\n}\r\n.nav__inner-back {\r\n  display: flex;\r\n  width: 100%;\r\n  transition: all 250ms ease-in-out;\r\n  background-position: center;\r\n  background-attachment: fixed;\r\n}\r\n.nav__inner-item {\r\n  display: flex;\r\n  align-items: center;\r\n  height: 100%;\r\n  width: 100%;\r\n  backdrop-filter: blur(500px);\r\n  background-attachment: fixed;\r\n  background-size: cover;\r\n  box-shadow: 0 0 200px 130px rgb(0 0 0) inset;\r\n}\r\n.nav__inner-ref {\r\n  display: flex;\r\n  width: 100%;\r\n  height: 75%;\r\n  justify-content: center;\r\n}\r\n.nav__inner-reference {\r\n  display: flex;\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100%;\r\n  background-size: cover;\r\n  background-attachment: fixed;\r\n  background-position: center;\r\n  font-size: 300%;\r\n  font-weight: normal;\r\n  text-decoration: none;\r\n  color: aliceblue;\r\n  border-left: 2px solid black;\r\n  border-right: 2px solid black;\r\n  border-radius: 10px;\r\n  transition: all 250ms ease-in-out;\r\n  justify-content: center;\r\n}\r\n.nav__inner-span {\r\n  position: absolute;\r\n  display: block;\r\n  width: 100%;\r\n  font-size: 200%;\r\n  top: 35%;\r\n  height: min-content;\r\n  transform: rotate(90deg);\r\n  transition: all 350ms ease-in-out;\r\n  opacity: 0.7;\r\n}\r\n.nav__inner-descr {\r\n  position: absolute;\r\n  display: hidden;\r\n  color: transparent;\r\n  top: 10%;\r\n  left: 50%;\r\n  width: 0;\r\n  height: 0;\r\n  border-radius: 10px;\r\n  background: rgb(255 255 255 / 8%);\r\n  backdrop-filter: blur(5px);\r\n}\r\n.nav__inner-descr p {\r\n  display: block;\r\n  margin: auto;\r\n  padding: 10px;\r\n  border-radius: 10px;\r\n  width: 90%;\r\n  height: 90%;\r\n  opacity: 0;\r\n  font-size: 22px;\r\n  line-height: 34px;\r\n  letter-spacing: 1px;\r\n}\r\n.nav__inner-descr:nth-child(2) {\r\n  top: 0%;\r\n  left: 40%;\r\n}\r\ntable {\r\n  display: none;\r\n  margin: auto 1%;\r\n  width: 100%;\r\n  color: rgb(0, 0, 0);\r\n}\r\n.nav__inner-descr-ref {\r\n  display: block;\r\n  width: 100px;\r\n}\r\n.nav__inner-descr-img {\r\n  opacity: 0.8;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\ntd {\r\n  margin: auto;\r\n  width: 100px;\r\n  height: 65px;\r\n  font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\r\n  font-size: 24px;\r\n  text-align: center;\r\n  vertical-align: middle;\r\n}\r\nthead,\r\ntbody {\r\n  margin: 0 auto;\r\n  width: 400px;\r\n}\r\ntbody .nav__inner-descr-img {\r\n  width: 45%;\r\n  height: 45%;\r\n  opacity: 0.8;\r\n}\r\n.contact__inner {\r\n  display: none;\r\n  width: 100%;\r\n  height: 100%;\r\n  margin: auto;\r\n  opacity: 0.6;\r\n  align-items: center;\r\n}\r\n.contact__inner-ref {\r\n  position: relative;\r\n  display: block;\r\n  width: 75px;\r\n  height: 45px;\r\n}\r\n.contact__inner-img {\r\n  width: 45px;\r\n  height: 45px;\r\n  margin: auto 0;\r\n}\r\n.nav__inner-ref:hover span {\r\n  opacity: 1;\r\n  top: 5%;\r\n  left: 5%;\r\n  margin-bottom: 100%;\r\n  font-size: 150%;\r\n  transform: rotate(0deg);\r\n}\r\n.nav__inner-ref:hover {\r\n  background: none;\r\n  filter: brightness(145%);\r\n  background-size: cover;\r\n  background-attachment: fixed;\r\n  background-position: center;\r\n}\r\n.nav__inner-ref:hover .nav__inner-descr {\r\n  display: flex;\r\n  width: 96%;\r\n  height: 48%;\r\n  left: 2%;\r\n  top: 50%;\r\n  color: white;\r\n  justify-content: space-around;\r\n}\r\n.nav__inner-ref:hover .nav__inner-descr p {\r\n  opacity: 1;\r\n}\r\n.nav__inner-ref:hover table {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n.nav__inner-ref:hover .contact__inner {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n.nav__inner-descr-img:hover {\r\n  opacity: 1;\r\n}\r\n.contact__inner-img:hover {\r\n  box-shadow: 0px 0px 10px 15px rgba(255, 255, 255, 0.101),\r\n    0px 0px 2px 5px rgba(255, 255, 255, 0.121) inset;\r\n  border-radius: 50%;\r\n  transition: all 300ms;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: sans-serif;\r\n  font-size: 95%;\r\n}\r\n.nav {\r\n  display: flex;\r\n  width: 100%;\r\n  height: 100vh;\r\n  margin: auto;\r\n  align-items: center;\r\n  justify-content: center;\r\n  background: rgb(0, 0, 0);\r\n}\r\n.nav__inner {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  width: 80%;\r\n  height: 100vh;\r\n}\r\n.nav__inner-back {\r\n  display: flex;\r\n  width: 100%;\r\n  transition: all 250ms ease-in-out;\r\n  background-position: center;\r\n  background-attachment: fixed;\r\n}\r\n.nav__inner-item {\r\n  display: flex;\r\n  align-items: center;\r\n  height: 100%;\r\n  width: 100%;\r\n  backdrop-filter: blur(500px);\r\n  background-attachment: fixed;\r\n  background-size: cover;\r\n  box-shadow: 0 0 200px 130px rgb(0 0 0) inset;\r\n}\r\n.nav__inner-ref {\r\n  display: flex;\r\n  width: 100%;\r\n  height: 75%;\r\n  justify-content: center;\r\n}\r\n.nav__inner-reference {\r\n  display: flex;\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100%;\r\n  background-size: cover;\r\n  background-attachment: fixed;\r\n  background-position: center;\r\n  font-size: 300%;\r\n  font-weight: normal;\r\n  text-decoration: none;\r\n  color: aliceblue;\r\n  border-left: 2px solid black;\r\n  border-right: 2px solid black;\r\n  border-radius: 10px;\r\n  transition: all 250ms ease-in-out;\r\n  justify-content: center;\r\n}\r\n.nav__inner-span {\r\n  position: absolute;\r\n  display: block;\r\n  width: 100%;\r\n  font-size: 200%;\r\n  top: 35%;\r\n  height: min-content;\r\n  transform: rotate(90deg);\r\n  transition: all 350ms ease-in-out;\r\n  opacity: 0.7;\r\n}\r\n.nav__inner-descr {\r\n  position: absolute;\r\n  display: hidden;\r\n  color: transparent;\r\n  top: 10%;\r\n  left: 50%;\r\n  width: 0;\r\n  height: 0;\r\n  border-radius: 10px;\r\n  background: rgb(255 255 255 / 8%);\r\n  backdrop-filter: blur(5px);\r\n}\r\n.nav__inner-descr p {\r\n  display: block;\r\n  margin: auto;\r\n  padding: 10px;\r\n  border-radius: 10px;\r\n  width: 90%;\r\n  height: 90%;\r\n  opacity: 0;\r\n  font-size: 22px;\r\n  line-height: 34px;\r\n  letter-spacing: 1px;\r\n}\r\n.nav__inner-descr:nth-child(2) {\r\n  top: 0%;\r\n  left: 40%;\r\n}\r\ntable {\r\n  display: none;\r\n  margin: auto 1%;\r\n  width: 100%;\r\n  color: rgb(0, 0, 0);\r\n}\r\n.nav__inner-descr-ref {\r\n  display: block;\r\n  width: 100px;\r\n}\r\n.nav__inner-descr-img {\r\n  opacity: 0.8;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\ntd {\r\n  margin: auto;\r\n  width: 100px;\r\n  height: 65px;\r\n  font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\r\n  font-size: 24px;\r\n  text-align: center;\r\n  vertical-align: middle;\r\n}\r\nthead,\r\ntbody {\r\n  margin: 0 auto;\r\n  width: 400px;\r\n}\r\ntbody .nav__inner-descr-img {\r\n  width: 45%;\r\n  height: 45%;\r\n  opacity: 0.8;\r\n}\r\n.contact__inner {\r\n  display: none;\r\n  width: 100%;\r\n  height: 100%;\r\n  margin: auto;\r\n  opacity: 0.6;\r\n  align-items: center;\r\n}\r\n.contact__inner-ref {\r\n  position: relative;\r\n  display: block;\r\n  width: 75px;\r\n  height: 45px;\r\n}\r\n.contact__inner-img {\r\n  width: 45px;\r\n  height: 45px;\r\n  margin: auto 0;\r\n}\r\n.nav__inner-ref:hover span {\r\n  opacity: 1;\r\n  top: 5%;\r\n  left: 5%;\r\n  margin-bottom: 100%;\r\n  font-size: 150%;\r\n  transform: rotate(0deg);\r\n}\r\n.nav__inner-ref:hover {\r\n  background: none;\r\n  filter: brightness(145%);\r\n  background-size: cover;\r\n  background-attachment: fixed;\r\n  background-position: center;\r\n}\r\n.nav__inner-ref:hover .nav__inner-descr {\r\n  display: flex;\r\n  width: 96%;\r\n  height: 48%;\r\n  left: 2%;\r\n  top: 50%;\r\n  color: white;\r\n  justify-content: space-around;\r\n}\r\n.nav__inner-ref:hover .nav__inner-descr p {\r\n  opacity: 1;\r\n}\r\n.nav__inner-ref:hover table {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n.nav__inner-ref:hover .contact__inner {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n.nav__inner-descr-img:hover {\r\n  opacity: 1;\r\n}\r\n.contact__inner-img:hover {\r\n  box-shadow: 0px 0px 10px 15px rgba(255, 255, 255, 0.101),\r\n    0px 0px 2px 5px rgba(255, 255, 255, 0.121) inset;\r\n  border-radius: 50%;\r\n  transition: all 300ms;\r\n}\r\n\r\n@media (max-width: 940px) {\r\n  .nav__inner-descr p {\r\n    font-size: 18px;\r\n  }\r\n}\r\n\r\n@media (max-width: 800px) {\r\n  .nav {\r\n    flex-direction: column;\r\n  }\r\n  .nav__inner {\r\n    flex-direction: column;\r\n  }\r\n\r\n  .nav__inner-back {\r\n    flex-direction: column;\r\n    height: 25%;\r\n    align-items: center;\r\n    margin: 0;\r\n  }\r\n  .nav__inner-item {\r\n    flex-direction: column;\r\n    height: 100%;\r\n  }\r\n  .nav__inner-ref {\r\n    flex-direction: column;\r\n    height: 100%;\r\n    align-items: center;\r\n  }\r\n  .nav__inner-reference {\r\n    height: 100%;\r\n    align-items: center;\r\n    flex-direction: column;\r\n  }\r\n  .nav__inner-span {\r\n    transform: none;\r\n    top: 15%;\r\n    left: 5%;\r\n    font-size: 50px;\r\n  }\r\n  .nav__inner-descr p {\r\n    font-size: 24px;\r\n  }\r\n}\r\n@media (max-width: 450px) {\r\n  .nav__inner {\r\n    width: 100%;\r\n  }\r\n  .nav__inner-span {\r\n    font-size: 30px;\r\n  }\r\n  .nav__inner-descr p {\r\n    font-size: 16px;\r\n  }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -550,7 +550,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".about__inner {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  width: 100%;\r\n  height: 100%;\r\n  transition: all 250ms ease-in-out;\r\n}\r\n\r\n.about__inner-wrap {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 75%;\r\n  height: 80%;\r\n  border-radius: 20px;\r\n  margin-top: 20px;\r\n}\r\n\r\n.about__inner-photo {\r\n  display: block;\r\n  position: relative;\r\n  border-radius: 20px;\r\n  transition: all 250ms ease-out;\r\n  filter: brightness(0.6) contrast(1);\r\n  margin: 20px;\r\n  padding: 5px;\r\n}\r\n\r\n.about__inner-desc {\r\n  display: block;\r\n  margin: 10px;\r\n  width: 0%;\r\n  text-align: center;\r\n  transition: all 250ms ease-out;\r\n  font-size: 18px;\r\n}\r\n\r\n.about__inner-button-forv {\r\n  opacity: 0.7;\r\n  display: block;\r\n  position: absolute;\r\n  left: 0;\r\n  top: 50%;\r\n  width: 64px;\r\n  height: 64px;\r\n  cursor: pointer;\r\n  border: none;\r\n  background-color: transparent;\r\n}\r\n\r\n.about__inner-button-back {\r\n  opacity: 0.7;\r\n  background-color: transparent;\r\n  position: absolute;\r\n  cursor: pointer;\r\n  right: 0;\r\n  top: 50%;\r\n  border: none;\r\n  display: block;\r\n  width: 64px;\r\n  height: 64px;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".about__inner {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  width: 100%;\r\n  height: 100%;\r\n  transition: all 250ms ease-in-out;\r\n}\r\n\r\n.about__inner-wrap {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 75%;\r\n  height: 80%;\r\n  border-radius: 20px;\r\n  margin-top: 20px;\r\n}\r\n\r\n.about__inner-photo {\r\n  display: block;\r\n  position: relative;\r\n  border-radius: 20px;\r\n  transition: all 250ms ease-out;\r\n  filter: brightness(0.6) contrast(1);\r\n  margin: 20px;\r\n  padding: 5px;\r\n}\r\n\r\n.about__inner-desc {\r\n  display: block;\r\n  margin: 10px;\r\n  width: 0%;\r\n  text-align: center;\r\n  transition: all 250ms ease-out;\r\n  font-size: 18px;\r\n}\r\n\r\n.about__inner-button-forv {\r\n  opacity: 0.7;\r\n  display: block;\r\n  position: absolute;\r\n  left: 0;\r\n  top: 50%;\r\n  width: 64px;\r\n  height: 64px;\r\n  cursor: pointer;\r\n  border: none;\r\n  background-color: transparent;\r\n}\r\n\r\n.about__inner-button-back {\r\n  opacity: 0.7;\r\n  background-color: transparent;\r\n  position: absolute;\r\n  cursor: pointer;\r\n  right: 0;\r\n  top: 50%;\r\n  border: none;\r\n  display: block;\r\n  width: 64px;\r\n  height: 64px;\r\n}\r\n\r\n@media (max-width: 450px) {\r\n  .about__inner-desc {\r\n    font-size: 16px;\r\n  }\r\n  .about__inner-button-forv {\r\n    width: 32px;\r\n    height: 32px;\r\n    background-size: cover;\r\n  }\r\n  .about__inner-button-back {\r\n    width: 32px;\r\n    background-size: cover;\r\n    height: 32px;\r\n  }\r\n  .about__inner-photo {\r\n    width: 100%;\r\n  }\r\n  .about__inner-desc {\r\n    width: 100%;\r\n  }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1852,23 +1852,29 @@ __webpack_require__.r(__webpack_exports__);
 
 let messages = ['Здраствуйте! Меня зовут Динислам! Я изучаю язык JavaScript и учусь кодить на React! 💖', 'Здесь вы можете посмотреть мои проекты! 🚀', 'Мои увлечения и достижения! 😍', 'А так же со мной легко связаться! 😉'];
 let typed = 999;
+console.dir(document.body);
 const catalogLi = document.querySelectorAll('.nav__inner-back');
 const catalogA = document.querySelectorAll('.nav__inner-reference');
 const catalogRef = document.querySelectorAll('.nav__inner-ref');
 const buttonBack = document.querySelector('.about__inner-button-forv');
 const buttonForv = document.querySelector('.about__inner-button-back');
+const offsetWidth = document.body.offsetWidth;
 
 for (let i = 0; i < catalogLi.length; i++) {
   catalogLi[i].style.backgroundImage = `url(./img/${i}.jpg)`;
   catalogA[i].style.backgroundImage = `linear-gradient(160deg, transparent, rgb(0, 0, 0)), url(./img/${i}.jpg)`;
 
-  catalogRef[i].onmouseenter = () => changeWidth(i);
+  catalogRef[i].onmouseenter = () => offsetWidth > 800 ? changeWidth(i) : changeHeight(i);
 
-  catalogRef[i].onmouseleave = () => onCommonWidth(i);
+  catalogRef[i].onmouseleave = () => offsetWidth > 800 ? onCommonWidth(i) : onCommonHeight(i);
 
   buttonForv.addEventListener('click', photoAdd);
   buttonBack.addEventListener('click', photoSub);
 }
+/**
+ * Для экранов больше 800px
+ */
+
 
 function changeWidth(i) {
   if (i === 0) {
@@ -1903,6 +1909,48 @@ function onCommonWidth(i) {
     buttonBack.style.display = 'none';
   }
 }
+/**
+ * Для экранов меньше 800px
+ */
+
+
+function changeHeight(i) {
+  if (i === 0) {
+    showHideText(1);
+  }
+
+  for (let x = 0; x < 4; x++) {
+    document.querySelectorAll('.nav__inner-back')[x].style.height = '9%';
+  }
+
+  document.querySelectorAll('.nav__inner-back')[i].style.height = '73%';
+
+  if (i === 2) {
+    aboutFrame.style.height = `80%`;
+    aboutFrame.style.top = `18%`;
+    onGallery();
+  }
+}
+
+function onCommonHeight(i) {
+  for (let x = 0; x < 4; x++) {
+    document.querySelectorAll('.nav__inner-back')[x].style.height = '25%';
+  }
+
+  if (i === 0) {
+    showHideText(0);
+  }
+
+  if (i === 2) {
+    onGalleryLaunch = false;
+    buttonForv.style.display = 'none';
+    buttonBack.style.display = 'none';
+  }
+}
+/**
+ * Автопечать текста
+ */
+
 
 function showHideText(n) {
   if (n == 1) {
@@ -1936,6 +1984,10 @@ function showHideText(n) {
     offlightShadow();
   }
 }
+/**
+ * Подсвечивание
+ */
+
 
 function onlightShadow(arrayPos) {
   offlightShadow();
@@ -1950,9 +2002,13 @@ function offlightShadow() {
     document.querySelectorAll('.nav__inner-reference')[i].style.boxShadow = 'none';
   }
 }
+/**
+ * Анимация сектора About
+ */
+
 
 const photoArray = ['football.JPG', 'job.JPG', 'master2.jpg', 'student.jpg'];
-const textArray = [`Я люблю активные виды спорта! Футбол⚽, Баскетбол⛹️, Хоккей🏒`, 'Работал инженером-программистом контроллеров!👷 И приходлось кодить в самых суровых условиях! 🥶', 'В 2021 году закончил нефтяной университет и имею степень магистра по автоматизации 💪', 'В университете активно участвовал культурно-массовой деятельности факультета 🎤'];
+const textArray = [`Я люблю активные виды спорта! Футбол⚽, Баскетбол⛹️, Хоккей🏒`, 'Работал инженером-программистом контроллеров!👷 И приходлось кодить в самых суровых условиях! 🥶', 'В 2021 году закончил нефтяной университет и имею степень магистра по автоматизации 💪', 'В университете активно участвовал в культурно-массовой деятельности факультета 🎤'];
 const aboutFrame = document.querySelectorAll('.nav__inner-descr')[2];
 const photo = document.querySelector('.about__inner-photo');
 const text = document.querySelector('.about__inner-desc');
@@ -1977,18 +2033,34 @@ function onGallery() {
   photo.src = `/img/${photoArray[photoNum]}`;
   text.innerHTML = `${textArray[photoNum]}`;
 
-  if (photoNum === 3) {
-    photo.style.width = '80%';
-    text.style.width = '90%';
-  } else if (photoNum === 2) {
-    text.style.width = '85%';
-    photo.style.width = '65%';
-  } else if (photoNum === 1) {
-    text.style.width = '90%';
-    photo.style.width = '62%';
-  } else if (photoNum === 0) {
-    text.style.width = '86%';
-    photo.style.width = '65%';
+  if (offsetWidth > 800) {
+    if (photoNum === 3) {
+      photo.style.width = '80%';
+      text.style.width = '90%';
+    } else if (photoNum === 2) {
+      text.style.width = '85%';
+      photo.style.width = '65%';
+    } else if (photoNum === 1) {
+      text.style.width = '90%';
+      photo.style.width = '62%';
+    } else if (photoNum === 0) {
+      text.style.width = '86%';
+      photo.style.width = '65%';
+    }
+  } else if (offsetWidth > 450 && offsetWidth < 800) {
+    if (photoNum === 3) {
+      photo.style.width = '72%';
+      text.style.width = '95%';
+    } else if (photoNum === 2) {
+      text.style.width = '95%';
+      photo.style.width = '60%';
+    } else if (photoNum === 1) {
+      text.style.width = '75%';
+      photo.style.width = '60%';
+    } else if (photoNum === 0) {
+      text.style.width = '60%';
+      photo.style.width = '56%';
+    }
   }
 }
 
