@@ -1,6 +1,6 @@
 import '../css/main.css'
 import '../css/about.css'
-import { messages } from './constants';
+import { messages, photoArray, textArray } from './constants';
 import Typed from 'typed.js';
 
 let typed = 999
@@ -116,7 +116,7 @@ function showHideText (n) {
 
 
 /**
- * Подсвечивание
+ * Highlighting
  */
 
 function onlightShadow(arrayPos){
@@ -136,11 +136,6 @@ function offlightShadow(){
 /**
  * Анимация сектора About
  */
-const photoArray = ['football.JPG', 'job.JPG', 'master2.jpg', 'student.jpg']
-const textArray = [`I love active sports! Football ⚽ Basketball ⛹️ Hockey 🏒`, 
-                    'I worked as a controller software engineer!👷 And I had to code in the harshest conditions! 🥶', 
-                    'In 2021, I graduated from the Oil University and has a master\'s degree in automation 💪',
-                    'At the university, I actively participated in the cultural activities of the faculty 🎤']
 const aboutFrame = document.querySelectorAll('.nav__inner-descr')[2]
 const photo = document.querySelector('.about__inner-photo')
 const text = document.querySelector('.about__inner-desc')
