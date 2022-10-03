@@ -1,19 +1,9 @@
 import '../css/main.css'
 import '../css/about.css'
+import { messages } from './constants';
 import Typed from 'typed.js';
 
-
-let messages = [
-  'Здраствуйте! Меня зовут Динислам! Я изучаю язык JavaScript и Веб-разработку! 💖',
-  'Здесь вы можете посмотреть мои проекты! 🚀',
-  'Мои увлечения и достижения! 😍',
-  'А так же со мной легко связаться! 😉',
-]
-
-
 let typed = 999
-
-console.dir(document.body)
 
 const catalogLi = document.querySelectorAll('.nav__inner-back')
 const catalogA = document.querySelectorAll('.nav__inner-reference')
@@ -147,10 +137,10 @@ function offlightShadow(){
  * Анимация сектора About
  */
 const photoArray = ['football.JPG', 'job.JPG', 'master2.jpg', 'student.jpg']
-const textArray = [`Я люблю активные виды спорта! Футбол⚽, Баскетбол⛹️, Хоккей🏒`, 
-                    'Работал инженером-программистом контроллеров!👷 И приходлось кодить в самых суровых условиях! 🥶', 
-                    'В 2021 году закончил нефтяной университет и имею степень магистра по автоматизации 💪',
-                    'В университете активно участвовал в культурно-массовой деятельности факультета 🎤']
+const textArray = [`I love active sports! Football ⚽ Basketball ⛹️ Hockey 🏒`, 
+                    'I worked as a controller software engineer!👷 And I had to code in the harshest conditions! 🥶', 
+                    'In 2021, I graduated from the Oil University and has a master\'s degree in automation 💪',
+                    'At the university, I actively participated in the cultural activities of the faculty 🎤']
 const aboutFrame = document.querySelectorAll('.nav__inner-descr')[2]
 const photo = document.querySelector('.about__inner-photo')
 const text = document.querySelector('.about__inner-desc')
