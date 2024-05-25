@@ -32,7 +32,7 @@
   margin: 10px;
   width: 0%;
   text-align: center;
-  transition: all 250ms ease-out;
+  /* transition: all 250ms ease-out; */
   font-size: 18px;
 }
 

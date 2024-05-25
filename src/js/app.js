@@ -34,7 +34,9 @@ function changeWidth(i) {
   if (i === 2){
     aboutFrame.style.height = `80%`
     aboutFrame.style.top = `18%`
-    onGallery()
+    setTimeout(() => {
+      onGallery()
+    }, 300)
   }
 }
 
@@ -49,6 +51,7 @@ function onCommonWidth(i) {
     onGalleryLaunch = false
     buttonForv.style.display = 'none';
     buttonBack.style.display = 'none';
+    text.innerHTML = "";
   }
 }
 /**
@@ -149,28 +152,34 @@ function onGallery(){
   buttonBack.style.backgroundImage = `url(./img/left.png)`;
   buttonForv.style.display = 'block';
   buttonBack.style.display = 'block';
-  if (photoNum === 4){
+  if (photoNum === 6){
     photoNum = 0
   }
   if (photoNum === -1){
-    photoNum = 3
+    photoNum = 5
   }
 
   photo.src = `./img/${photoArray[photoNum]}`
   text.innerHTML = `${textArray[photoNum]}`
   if (offsetWidth > 800) {
-    if (photoNum === 3) {
-      photo.style.width = '80%'
+    if (photoNum === 5){ 
+      photo.style.width = '70%'
+      text.style.width = '90%'
+    } else if (photoNum === 4){ 
+      photo.style.width = '55%'
+      text.style.width = '90%'
+    } else if (photoNum === 3) {
+      photo.style.width = '60%'
       text.style.width = '90%'
     } else if(photoNum === 2) {
       text.style.width = '85%'
       photo.style.width = '65%'
     } else if(photoNum === 1) {
       text.style.width = '90%'
-      photo.style.width = '62%'
+      photo.style.width = '80%'
     } else if(photoNum === 0) {
       text.style.width = '86%'
-      photo.style.width = '65%'
+      photo.style.width = '85%'
     }
   } else if (offsetWidth > 450 && offsetWidth < 800)  {
     if (photoNum === 3) {
